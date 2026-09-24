@@ -75,3 +75,5 @@ dmypy.json
 
 # ruff / isort cache
 .ruff_cache/
+
+node_modules/
