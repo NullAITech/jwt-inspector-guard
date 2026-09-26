@@ -1,0 +1,20 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=JWT Inspector Guard
+GenericName=Cryptographic JWT Security Auditor
+Comment=Zero-Egress Cryptographic JWT Security Auditor, Inspector & Exploit Fuzzer
+Exec=/usr/local/bin/jwt-guard desktop
+Icon=/media/neo/f2fdda77-178b-4603-ae80-c7aa4cd97908/zoth-micro-repos/jwt-inspector-guard/assets/icon.png
+Terminal=false
+Categories=Security;Development;System;Network;
+StartupNotify=true
+Actions=CLI;Web;
+
+[Desktop Action CLI]
+Name=Open JWT-Guard CLI
+Exec=x-terminal-emulator -e "/usr/local/bin/jwt-guard --help"
+
+[Desktop Action Web]
+Name=Open Web UI (Port 8080)
+Exec=/usr/local/bin/jwt-guard web
